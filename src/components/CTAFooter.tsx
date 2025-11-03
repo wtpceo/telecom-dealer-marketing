@@ -222,7 +222,9 @@ export default function CTAFooter() {
           </a>
 
           <a
-            href="#"
+            href="http://pf.kakao.com/_QUTxcb/chat"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:bg-white/20 transition-all duration-300 border-2 border-white/20"
           >
             <svg className="w-8 h-8 text-orange-primary mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
