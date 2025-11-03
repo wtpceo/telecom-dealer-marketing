@@ -80,7 +80,7 @@ export default function MarketOpportunity() {
               </motion.div>
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                  💡 핵심 인사이트
+                  핵심 인사이트
                 </h3>
                 <p className="text-lg md:text-xl leading-relaxed">
                   고객의 <strong className="text-white underline decoration-white/50">75% 이상이 온라인에서 정보를 검색</strong>합니다.

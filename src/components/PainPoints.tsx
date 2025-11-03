@@ -3,27 +3,22 @@ export default function PainPoints() {
     {
       title: '신규 고객 유입 감소',
       description: '예전처럼 손님이 오지 않고, 매출이 정체되어 있어요',
-      icon: '📉',
     },
     {
       title: '온라인 경쟁 심화',
       description: '성지폰, 온라인 대리점과 경쟁이 너무 치열해요',
-      icon: '⚔️',
     },
     {
       title: '광고비 부담',
       description: '광고는 해야 하는데 비용 대비 효과가 불확실해요',
-      icon: '💸',
     },
     {
       title: '마케팅 노하우 부족',
       description: '온라인 마케팅을 어떻게 시작해야 할지 모르겠어요',
-      icon: '❓',
     },
     {
       title: '단순 방문 고객 감소',
       description: '지나가다 들어오는 고객이 점점 줄어들고 있어요',
-      icon: '🚶',
     },
   ];
 
@@ -54,7 +49,6 @@ export default function PainPoints() {
               key={index}
               className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-orange-primary"
             >
-              <div className="text-4xl mb-4">{point.icon}</div>
               <h3 className="text-xl font-bold text-navy-primary mb-3">
                 {point.title}
               </h3>

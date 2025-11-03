@@ -150,7 +150,7 @@ export default function CaseStudies() {
             {/* Lesson */}
             <div className="mt-6 bg-gradient-to-r from-orange-100 to-red-100 rounded-lg p-4">
               <div className="font-semibold text-orange-900 mb-2">
-                💡 교훈
+                교훈
               </div>
               <p className="text-sm text-gray-700">
                 광고비를 쓰는 것보다 <strong>어떻게</strong> 쓰는지가 중요합니다.
