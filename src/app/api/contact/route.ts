@@ -1,8 +1,6 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: Request) {
   try {
     const body = await request.json();
@@ -15,6 +13,18 @@ export async function POST(request: Request) {
         { status: 400 }
       );
     }
+
+    // API 키 확인
+    if (!process.env.RESEND_API_KEY) {
+      console.error('RESEND_API_KEY is not set');
+      return NextResponse.json(
+        { error: '이메일 서비스 설정이 필요합니다. 관리자에게 문의해주세요.' },
+        { status: 500 }
+      );
+    }
+
+    // Resend 클라이언트 초기화 (런타임에만 실행)
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     // 매장 유형 한글 변환
     const storeTypeMap: { [key: string]: string } = {
