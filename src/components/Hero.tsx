@@ -142,7 +142,7 @@ export default function Hero() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <span className="text-orange-primary font-semibold">🚀 휴대폰 대리점 전문</span>
+            <span className="text-orange-primary font-semibold">휴대폰 대리점 전문</span>
           </motion.div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">

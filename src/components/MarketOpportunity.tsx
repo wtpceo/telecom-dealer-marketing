@@ -29,7 +29,7 @@ export default function MarketOpportunity() {
             className="inline-block px-4 py-2 bg-orange-primary/10 text-orange-primary rounded-full text-sm font-semibold mb-4"
             whileHover={{ scale: 1.05 }}
           >
-            📊 시장 분석
+            시장 분석
           </motion.div>
           <h2 className="text-3xl md:text-5xl font-bold text-navy-primary mb-6">
             왜 지금, 마케팅이 필요할까요?
